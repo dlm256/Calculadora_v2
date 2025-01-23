@@ -74,7 +74,7 @@ if __name__ == "__main__":
             numero1: float = float(input('Introduza o primeiro número:'))
             numero2: float = float(input('Introduza o segundo número:'))
             operacao: str = input('Introduza a operação a realizar (+ - / *) ou (% ^):')
-            print(f'O resultado: {calculadora(numero1, numero2, operacao)}')
+            print(f'O resultado: {calculadora_v3(numero1, numero2, operacao)}')
             print()
             cont: str = input('Deseja continuar? (s/n):').lower()
             if cont == 'n':
